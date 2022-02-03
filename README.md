@@ -15,7 +15,7 @@ Apart from the lower and upper bound constraints of generators which are already
 
 Another constraint we have is on three solid generators, either of which has production equal to the production of the previous hour. It can be written as:<br>
 <p align="center">
-<img height="40" width="500" src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;P_{s,t}&space;=P_{s,t-1}\&space;\forall\&space;s&space;\in&space;SD&space;,&space;\forall\&space;t&space;\in&space;T-\{1\}\&space;\&space;\&space;\&space;\&space;...\&space;eq(ii)" title="\bg_white P_{s,t} =P_{s,t-1}\ \forall\ s \in SD , \forall\ t \in T-\{1\}\ \ \ \ \ ...\ eq(ii)" />
+<img height="30" width="500" src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;P_{s,t}&space;=P_{s,t-1}\&space;\forall\&space;s&space;\in&space;SD&space;,&space;\forall\&space;t&space;\in&space;T-\{1\}\&space;\&space;\&space;\&space;\&space;...\&space;eq(ii)" title="\bg_white P_{s,t} =P_{s,t-1}\ \forall\ s \in SD , \forall\ t \in T-\{1\}\ \ \ \ \ ...\ eq(ii)" />
 </p>
 
 The decision variables for the problem are the productions of all of the generators in 24 hours as shown in eq(i). Hence the total number of decision variables is 24 * 10 = 240.
