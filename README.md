@@ -9,3 +9,8 @@ Since demand and supply from generators depends on time, we define T as the set 
 ### Constraints and Decision Variables
 Apart from the lower and upper bound constraints of generators which are already given, we also have a constraint that at any time t ϵ T, supply from all generators should be equal to demand. Using the above notations, it can be defined as:
 $\sum P_{h,t}\ \forall\ h \in H + \sum P_{s,t}\ \forall\ s\in SD + \sum P_{g,t}\ \forall\ g\in G + \sum P_{r,t}\ \forall\ r \in SLR=D_{t}\ \ \ \ \ ...\ eq(i)$
+The decision variables for the problem are the productions of all of the generators in 24 hours as shown in eq(i). Hence the total number of decision variables is 24 * 10 = 240.
+Below is the code for the addition of decision variables and then the constraints.
+
+### Objective Function
+ Objective is the minimization of the cost which is provided in EUR/MW. We define the total cost for the day as the production of generators multiplied by their corresponding cost information provided, as shown below.
