@@ -9,7 +9,8 @@ Since demand and supply from generators depends on time, we define T as the set 
 ### Constraints and Decision Variables
 Apart from the lower and upper bound constraints of generators which are already given, we also have a constraint that at any time t ϵ T, supply from all generators should be equal to demand. Using the above notations, it can be defined as:<br>
 
-![\sum_{\forall i}{x_i^{2}}](https://latex.codecogs.com/svg.latex?%5Csum_%7B%5Cforall+i%7D%7Bx_i%5E%7B2%7D%7D)
+![\sum P_{h,t}\ \forall\ h \in H + \sum P_{s,t}\ \forall\ s\in SD + \sum P_{g,t}\ \forall\ g\in G + \sum P_{r,t}\ \forall\ r \in SLR=D_{t}\ \ \ \ \ ...\ eq(i)](https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;\inline&space;\sum&space;P_{h,t}\&space;\forall\&space;h&space;\in&space;H&space;&plus;&space;\sum&space;P_{s,t}\&space;\forall\&space;s\in&space;SD&space;&plus;&space;\sum&space;P_{g,t}\&space;\forall\&space;g\in&space;G&space;&plus;&space;\sum&space;P_{r,t}\&space;\forall\&space;r&space;\in&space;SLR=D_{t}\&space;\&space;\&space;\&space;\&space;...\&space;eq(i)&space;)
+
 
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;\inline&space;\sum&space;P_{h,t}\&space;\forall\&space;h&space;\in&space;H&space;&plus;&space;\sum&space;P_{s,t}\&space;\forall\&space;s\in&space;SD&space;&plus;&space;\sum&space;P_{g,t}\&space;\forall\&space;g\in&space;G&space;&plus;&space;\sum&space;P_{r,t}\&space;\forall\&space;r&space;\in&space;SLR=D_{t}\&space;\&space;\&space;\&space;\&space;...\&space;eq(i)&space;" title="\bg_white \inline \sum P_{h,t}\ \forall\ h \in H + \sum P_{s,t}\ \forall\ s\in SD + \sum P_{g,t}\ \forall\ g\in G + \sum P_{r,t}\ \forall\ r \in SLR=D_{t}\ \ \ \ \ ...\ eq(i) " />
 <br> $\sum P_{h,t}\ \forall\ h \in H + \sum P_{s,t}\ \forall\ s\in SD + \sum P_{g,t}\ \forall\ g\in G + \sum P_{r,t}\ \forall\ r \in SLR=D_{t}\ \ \ \ \ ...\ eq(i)$
