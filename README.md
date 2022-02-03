@@ -19,7 +19,6 @@ Another constraint we have is on three solid generators, either of which has pro
 </p>
 
 The decision variables for the problem are the productions of all of the generators in 24 hours as shown in eq(i). Hence the total number of decision variables is 24 * 10 = 240.
-Below is the code for the addition of decision variables and then the constraints.
 
 ## Objective Function
  Objective is the minimization of the cost which is provided in EUR/MW. We define the total cost for the day as the production of generators multiplied by their corresponding cost information provided, as shown below:<br>
