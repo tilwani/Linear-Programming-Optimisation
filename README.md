@@ -1,7 +1,9 @@
 # Linear-Programming-Optimisation
 
 ## Problem Statement
-For the given problem statement, we require to minimize the cost of electricity production while also ensuring that the supply meets the demand, that varies hourly over the period of 24 hours for a single day. The resources provided are ten generators with different configurations which can be tuned as per the demand.
+For the given problem statement, we require to minimize the cost of electricity production while also ensuring that the supply meets the demand, that varies hourly over the period of 24 hours for a single day. The resources provided are ten generators with different configurations which can be tuned as per the demand.  Each generator has a lower and upper bound on its production per hour (in MW/h). Generators cost money and CO2 for producing each unit of electricity and all this is given in `generator_info.csv`.
+Solar generator maximum supply limit depends on the time of day which is given in `solar_curve.csv`. The Solid fuel generators can't change their amount of production from one
+hour to the next.  The file `demand.csv` lists the demand for each hour of the day. Data values have been modified than what was originally provided.
 
 ## Notations
 Since demand and supply from generators depends on time, we define T as the set of integer values in [1, 24], denoting the hour of the day. Demand at any time t can be represented as Dt , where t ϵ T. Let H, SD, G, SLR be the sets of hydro, solid, gas, and solar generators respectively. Also, let Px,t denote the production of any generator x at time t, where t ϵ T.
